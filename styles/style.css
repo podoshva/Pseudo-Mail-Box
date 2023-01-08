@@ -1,0 +1,101 @@
+p {
+  display: inline;
+}
+
+body {
+  font-family: Roboto;
+}
+
+
+.letters {
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  display: grid;
+}
+
+.letters-grid {
+  display: grid;
+}
+
+.inbox-p {
+  font-size: 16px;
+  margin-top: 8px;
+  color: rgb(137, 137, 137);
+  margin-left: 18px;
+}
+
+.inbox {
+  display: flex;
+}
+
+.letter {
+  margin-top: -1px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  grid-template-rows: 1fr;
+  display: flex;
+  align-items: center;
+  transition: border 0.15s, box-shadow 0.15s;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+}
+
+.letter:hover,
+.letter:active {
+  border-color: rgb(214, 214, 214);
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+}
+
+.sender-picture {
+  display: inline-block;
+}
+
+.info {
+  flex: 1;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.first-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-p {
+  color: rgb(137, 137, 137);
+  font-size: 16px;
+}
+
+.first-line-p {
+  color: rgb(137, 137, 137);
+  font-size: 16px;
+}
+
+.theme-p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sender-name-p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.first-info,
+.first-line,
+.theme {
+  margin-top: 4px;
+}
+
+
